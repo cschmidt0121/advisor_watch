@@ -1,0 +1,13 @@
+services:
+  watch:
+    environment:
+      AW_STATE_FILE: /app/state/state.json
+      AW_GENRES: jungle, drumandbass
+      AW_AREAS: new york, los angeles
+      #AW_COUNTRY: "United States of America"
+      #AW_SLEEP_DURATION: 3600
+      AW_DISCORD_WEBHOOK_URL: "https://discord.com/api/webhooks/my_cool_webhook"
+    build:
+      context: .
+    volumes:
+      - ~/advisor_watch/:/app/state
