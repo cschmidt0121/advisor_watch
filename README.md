@@ -6,7 +6,7 @@ Can be run as a command-line utility or via Docker. For a list of valid genres, 
 
 ## Setup (Docker)
 
-1. Edit compose.yaml with your desired settings. If AW_COUNTRY is set, ALL regions from that country will be watched, and AW_AREAS will be ignored.
+Edit compose.yaml with your desired settings. If AW_COUNTRY is set, ALL regions from that country will be watched, and AW_AREAS will be ignored.
 
 ## Usage (Docker)
 
